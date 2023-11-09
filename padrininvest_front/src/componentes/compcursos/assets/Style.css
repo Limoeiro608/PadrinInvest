@@ -1,0 +1,80 @@
+.cursos__tituloAula {
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cursos__descAula{
+    margin-bottom: -10px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.cursos__video {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.cursos__tamanho {
+    margin-bottom: 10px;
+}
+  
+.cursos__videoPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+}
+
+.cursos__progressoTamanho {
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.cursos__progresso {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--corCinza);
+}
+
+.cursos__lista {
+    /*margin-top: 25px;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: var(--corCinza);
+    z-index: 0;
+}
+.cursos__lista span {
+    z-index: 110;
+}
+
+.cursos__distancia {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cursos_aulas{
+    margin-bottom: 10px;
+}
+
+.cursos__assistir{
+    cursor: pointer;
+    color: var(--corRoxoUva);
+}
+
+.cursos__assistir:hover{
+    text-decoration: underline;
+}
+
+.cursos__titulo{
+    margin-top: 20px !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.check__aula{
+    margin-right: 10px;
+}

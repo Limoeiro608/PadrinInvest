@@ -1,0 +1,36 @@
+.curso__container {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.curso__espaco {
+    margin-bottom: 20px;
+}
+
+.curso__titulo {
+    font-size: 22px;
+}
+
+.curso__arrow {
+    font-size: 30px;
+    color: var(--corRoxoUva)
+}
+
+.curso__video {
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.curso__titVideo {
+    font-size: 22px;
+}
+
+.curso__texto {
+    display: flex;
+    align-items: center;
+}
+
+.curso__naologado{
+    filter: blur(2px);
+}

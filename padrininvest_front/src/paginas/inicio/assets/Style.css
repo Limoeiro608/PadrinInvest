@@ -1,0 +1,13 @@
+.noticias__container {
+    width: 100%;
+}
+
+.noticias__ {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, var(--corRoxoUva), var(--corRoxoUvaClaro));
+    color: white;
+    font-size: 25px;
+
+}

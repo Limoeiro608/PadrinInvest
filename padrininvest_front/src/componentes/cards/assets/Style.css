@@ -1,0 +1,66 @@
+.h2__texto {
+    font-size: 22px;
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--corRoxoUva) !important;
+  font-size: 30px !important;
+}
+
+.card {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.card__fundo{
+    min-height: 500px !important;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 96% !important;
+
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .card {
+        width: 96% !important;
+    }
+}
+  
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 96% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 96% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 96% !important;
+
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .card {
+        width: 96% !important;
+
+    }
+}
+@media only screen and (min-width: 1921px) {
+    .card {
+        width: 96% !important;
+
+    }
+}

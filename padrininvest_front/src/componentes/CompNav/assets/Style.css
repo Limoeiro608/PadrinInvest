@@ -1,0 +1,152 @@
+.navbar {
+    background: linear-gradient(to right, var(--corRoxoUva), var(--corRoxoUvaClaro));
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.nav__container{
+    display: flex !important;
+    justify-content: space-around;;
+}
+
+.logo2 {
+    width: 50px; 
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.logo1 {
+    width: 220px !important;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.nav__basic{
+    float: right !important;
+    flex-grow:unset;
+}
+
+.nav__texto {
+    margin-right: 100px;
+}
+
+.nav__texto a {
+    color: rgba(255, 255, 255, 0.966) !important;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-right: 20px;
+    
+}
+
+.nav__texto a:hover {
+    color: var(--corCinzaClaro) !important;
+}
+
+.dropdown-menu{
+    background-color: var(--corRoxoUva);
+}
+
+.nav__btnLogin {
+    color: var(--corRoxoUva);
+    margin-top: 10px;
+    width: 90px;
+}
+
+.nav__btnLogin:hover {
+    color: #fff;
+    background-color: var(--corRoxoUvaClaro);
+}
+
+.compnav__btn{
+    display: flex;
+    align-items: center;
+}
+
+.compnav__btn span{
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+    }
+    .compnav__btn{
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (min-width: 576px) {
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+    }
+    .compnav__btn{
+        flex-direction: column;
+    }
+}
+  
+@media only screen and (min-width: 768px) {
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+    }
+    .compnav__btn{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .logo1 {
+        display: block;
+    }
+    .logo2 {
+        display: none;
+    }
+    .compnav__btn{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .logo1 {
+        display: block;
+    }
+    .logo2 {
+        display: none;
+    }
+    .compnav__btn{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .logo1 {
+        display: block;
+    }
+    .logo2 {
+        display: none;
+    }
+    .compnav__btn{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1921px) {
+    .logo1 {
+        display: block;
+    }
+    .logo2 {
+        display: none;
+    }
+    .compnav__btn{
+        flex-direction: row;
+    }
+}

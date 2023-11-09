@@ -1,0 +1,27 @@
+.investimentos__tamanho {
+    margin: 10px;
+    display: flex;
+}
+
+.tabela__icons {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tabela__inputPesquisa {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.investimentos__tituloPrincipal {
+    display: flex;
+}
+
+.investimentos__text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}

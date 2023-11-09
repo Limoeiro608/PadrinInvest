@@ -1,0 +1,26 @@
+.graficoHome__titulo {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.graficoHome__tamanho {
+    margin-top: 30px;
+}
+
+.curso__arrow {
+    font-size: 30px;
+    color: var(--corRoxoUva)
+}
+
+.graficoHome__naologado{
+    filter: blur(2px);
+}
+
+.graficoHome__cadeado1, .graficoHome__cadeado2{
+    z-index: 1000;
+    font-size: 35px;
+}
+
+.graficoHome__cadeado2{
+    display: none;
+}

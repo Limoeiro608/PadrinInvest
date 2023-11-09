@@ -1,0 +1,204 @@
+.login__container {
+    background-image: linear-gradient(to right, var(--corRoxoUva), var(--corRoxoUvaClaro));  
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__fundo {
+    background-color: var(--corCinza);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login__titulo img{
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+.login__switch {
+    text-align: center;
+}
+
+.login__switch button {
+    border-radius: 0px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login__btncadastrar {
+    border-radius: 0px 5px 5px 0px !important; 
+
+}
+
+.login__btninativo {
+    background-color: var(--corCinza);
+    color: var(--corPreto);
+    border-color: var(--corCinzaEscuro);
+    --bs-btn-active-bg: var(--corCinza) !important;
+    --bs-btn-active-border-color: var(--corRoxoUvaClaro) !important;
+
+}
+
+.login__btninativo:hover {
+    background-image: linear-gradient(to right, var(--corRoxoUva), var(--corRoxoUvaClaro)); 
+    background-color: var(--corCinza); 
+    color: var(--corBranco);
+    border-color: var(--corRoxoUvaClaro);
+}
+
+
+.login__btnativo {
+    background-image: linear-gradient(to right, var(--corRoxoUva), var(--corRoxoUvaClaro)); 
+    border-color: var(--corRoxoUva);
+    --bs-btn-active-bg: var(--corCinza) !important;
+    --bs-btn-active-border-color: var(--corRoxoUvaClaro) !important;
+}
+
+.login__btnativo:hover {
+    border-color: var(--corRoxoUvaClaro);
+}
+
+.login__btnentrar {
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.login__campos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.login__input {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.login__info {
+    font-size: 12px;
+    color: var(--corCinzaEscuro);
+    cursor: pointer;
+}
+
+.login__info:hover {
+    text-decoration: underline;
+}
+
+.login__botao {
+    margin-bottom: 20px;
+}
+
+.login__botao button {
+    width: 100%;
+    background-image: linear-gradient(to right, var(--corRoxoUva), var(--corRoxoUvaClaro)); 
+    border-color: var(--corRoxoUva);
+    --bs-btn-active-border-color: var(--corRoxoUvaClaro) !important;
+}
+
+.login__botao button:hover{
+    border-color: var(--corRoxoUvaClaro);
+}
+
+.login__icon {
+    font-size: 20px;
+    margin-top: 8px;
+    color: var(--corCinzaEscuro);
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .login__botao {
+        width: 80%;
+    }
+    .login__campos {
+        width: 80%;
+    }
+    .login__switch {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
+  
+@media only screen and (min-width: 768px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1921px) {
+    .login__botao {
+        width: 70%;
+    }
+    .login__campos {
+        width: 70%;
+    }
+    .login__switch {
+        width: 70%;
+    }
+}
